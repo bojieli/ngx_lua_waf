@@ -49,6 +49,9 @@ elseif PostCheck then
 	 ngx.req.finish_body()
     else
 			ngx.req.read_body()
+			if ngx.req.get_body_file() then
+				return
+			end
 			local args = ngx.req.get_post_args()
 			if not args then
 				return
