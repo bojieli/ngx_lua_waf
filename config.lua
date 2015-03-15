@@ -10,4 +10,4 @@ ipWhitelist={"127.0.0.1"}
 ipBlocklist={}
 CCDeny="on"
 CCrate="200/60"
-html=[[This page is blocked by USTC LUG Web Application Firewall. If this is a legitimate page and you are seeing this message, please contact lug (AT) ustc.edu.cn.]]
+html=[[<h1>Forbidden</h1><p>This page is blocked by USTC LUG Web Application Firewall.</p><p>If this is a legitimate page and you are seeing this message, please contact lug (AT) ustc.edu.cn.</p>]]
