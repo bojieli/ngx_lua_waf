@@ -1,7 +1,7 @@
 \.\./
 select.+(from|limit)
 (?:(union(.*?)select))
-having|rongjitest
+having
 sleep\((\s*)(\d*)(\s*)\)
 benchmark\((.*)\,(.*)\)
 base64_decode\(
